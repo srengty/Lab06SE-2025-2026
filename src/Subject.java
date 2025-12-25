@@ -11,5 +11,6 @@ public class Subject{
         sb.totalCredits = 3;
         sb.totalHours = 64;
         System.out.println(sb);
+        
     }
 }
