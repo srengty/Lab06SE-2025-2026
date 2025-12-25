@@ -1,3 +1,13 @@
+/**
+ * JavaDoc: Represents Course in Year 2 IP.
+ *   
+ * Example: {@code Subject s = new Subject()}
+ * 
+ * @author Sreng
+ * @author Flourbloom
+ * @author Vattey
+ * @since 1.0
+ */
 public class Subject{
     private String name;
     private int totalCredits = 1;
@@ -11,6 +21,6 @@ public class Subject{
         sb.totalCredits = 3;
         sb.totalHours = 64;
         System.out.println(sb);
-        
+
     }
 }
