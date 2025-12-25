@@ -1,15 +1,15 @@
-class subject{
-    String Name;
-    int TotalCredits = 1;
-    int TotalHours = 50;
+public class Subject{
+    private String name;
+    private int totalCredits = 1;
+    private int totalHours = 50;
     public String toString(){
-        return String.format("%s (%d credits, %d hours)",Name, TotalCredits, TotalHours);
+        return String.format("%s (%d credits, %d hours)",name, totalCredits, totalHours);
     }
     public static void main(String[] args) {
-        subject sb = new subject();
-        sb.Name = "Intro to SE";
-        sb.TotalCredits = 3;
-        sb.TotalHours = 64;
+        Subject sb = new Subject();
+        sb.name = "Intro to SE";
+        sb.totalCredits = 3;
+        sb.totalHours = 64;
         System.out.println(sb);
     }
 }
